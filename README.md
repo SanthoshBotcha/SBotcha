@@ -39,10 +39,10 @@
 
 ### 🗂 **Highlighted Projects**
 - **CLABSI Prediction in Healthcare**: Leveraged regression analysis and Python to predict Central Line-Associated Bloodstream Infection (CLABSI) rates, providing actionable insights to improve patient outcomes.  
-  [View Project on GitHub](#)
+  [View Project on GitHub- https://github.com/SanthoshBotcha/CLABSI_Modeling_and_Prediction.git](#)
 
 - **Customer Churn Prediction**: Built a machine learning pipeline to predict churn with 92% accuracy using Python (Pandas, Scikit-learn, XGBoost).  
-  [View Project on GitHub](#)
+  [View Project on GitHub- https://github.com/SanthoshBotcha/Customer-Churn-Prediction-using-ANN.git](#)
 
 - **Energy Market Analysis Dashboard**: Designed Power BI dashboards visualizing real-time energy consumption and trends for stakeholders.  
   [View Project on GitHub](#)
