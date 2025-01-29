@@ -44,8 +44,8 @@
 - **Customer Churn Prediction**: Built a machine learning pipeline to predict churn with 92% accuracy using Python (Pandas, Scikit-learn, XGBoost).  
   [View Project on GitHub- https://github.com/SanthoshBotcha/Customer-Churn-Prediction-using-ANN.git](#)
 
-- **Energy Market Analysis Dashboard**: Designed Power BI dashboards visualizing real-time energy consumption and trends for stakeholders.  
-  [View Project on GitHub](#)
+- **HR Analytics Dashboard**: Designed Power BI dashboards visualizing real-time employee attendance trends, providing valuable insights for HR teams to optimize workforce planning, manage absenteeism, and enhance employee engagement. 
+  [View Project on GitHub- https://github.com/SanthoshBotcha/HR-Employee-Analytics-Dashboard.git]
 
 ---
 
