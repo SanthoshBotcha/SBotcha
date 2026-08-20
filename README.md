@@ -1,126 +1,174 @@
 <div align="center">
-  <h1>👋 Hi, I'm Santhosh Botcha</h1>
-  <h3>Machine Learning Engineer | Data Scientist | GenAI & Production AI Systems</h3>
+
+# 👋 Hi, I'm Santhosh Botcha
+
+### Machine Learning Engineer | Data Scientist | GenAI and Production AI Systems
+
+I build machine learning systems that connect **models, data, APIs, and production infrastructure**.
+
 </div>
 
 ---
 
-### About Me
+## 👨‍💻 About Me
 
-I’m a **Machine Learning Engineer and Data Scientist** with experience across production ML platforms, predictive modeling, data science, and GenAI systems.
+I am a **Machine Learning Engineer and Data Scientist** with experience across production ML platforms, predictive modeling, data science, distributed systems, and Generative AI.
 
-I’ve worked on large-scale ML infrastructure handling **200M+ requests per day**, predictive analytics across operational and transactional datasets, and end-to-end AI applications using **RAG, LangGraph, embeddings, vector search, FastAPI, and multimodal models**.
+My work spans both sides of machine learning: understanding data and building models, then designing the systems required to run AI reliably in production. I have worked with large-scale ML infrastructure handling **200M+ requests per day**, operational and transactional datasets across the energy domain, and end-to-end AI applications using **RAG, LangGraph, embeddings, vector search, FastAPI, and multimodal models**.
 
-My interests are centered around **Generative AI, agentic workflows, retrieval systems, ML platform engineering, and productionizing AI systems** e,specially solving the reliability, evaluation, scalability, and data challenges that arise when moving AI from experimentation into real applications.
-
----
-
-### Professional Experience
-
-**Machine Learning Engineer (Systems / Platform) – Meta**
-*Burlingame, CA | Oct 2024 – Jan 2026*
-
-* Scaled production ML platform workflows handling **200M+ requests/day** through request normalization, caching, and metadata-driven orchestration.
-* Reduced duplicate artifact builds by **2x+** through idempotency and duplicate-detection mechanisms.
-* Improved pipeline reliability by **30%** using circuit breakers, asynchronous validation, fault isolation, and rollback-safe execution.
-* Built observability and telemetry workflows for diagnosing failures across distributed ML infrastructure.
-
-**Data Scientist – Tata Consultancy Services | Trafigura / Puma Energy**
-*Mumbai, India | Apr 2020 – Aug 2022*
-
-* Applied **Python, SQL, predictive analytics, feature engineering, and statistical modeling** to sales, logistics, and operational datasets.
-* Designed forecasting and anomaly-detection workflows to identify demand patterns, operational bottlenecks, and data-quality issues.
-* Automated near-real-time analytics workflows to surface actionable signals for business and operations teams.
-* Migrated analytics applications to Azure and Synapse-based workflows supporting systems associated with **$5M+ in annual revenue**.
-
-**Associate Data Scientist – Tata Consultancy Services | Trafigura**
-*Mumbai, India | Jun 2018 – Mar 2020*
-
-* Analyzed **50,000+ transaction and order records** using Python and SQL to uncover demand patterns and operational inefficiencies, contributing to a **17% increase in fuel and lubricant sales**.
-* Performed exploratory and statistical analysis across terminal, dispatch, and sales datasets.
-* Engineered features for demand forecasting and operational risk analysis across **15 fuel terminals**.
-* Translated operational problems into data-driven analyses that improved resource allocation and dispatch reliability.
+I am particularly interested in **GenAI, agentic AI, retrieval systems, recommendation systems, LLM evaluation, MLOps, and scalable AI infrastructure**.
 
 ---
 
-### Featured Projects
+## 💼 Professional Experience
 
-#### 👕 AI Wardrobe – Multimodal Outfit Recommendation System
+### Machine Learning Engineer (Systems / Platform) | Meta
 
-Built an end-to-end multimodal AI system that converts raw wardrobe images into structured garment intelligence and generates personalized outfit recommendations.
 
-* **Python, FastAPI, Supabase, PostgreSQL, pgvector**
-* **CLIP embeddings, image segmentation, vector retrieval**
-* **RAG and LLM-based recommendation workflows**
-* **LangGraph agentic orchestration**
-* Retrieval ranking, fallback logic, feedback loops, and recommendation evaluation
-* LLM evaluation focused on relevance, groundedness, consistency, and hallucination risk
+At Meta Reality Labs, I worked on large-scale infrastructure supporting ML artifact creation and AR/VR platform workflows processing more than **200M requests per day**. My work focused on distributed orchestration, request identity normalization, Fetch or Create caching, idempotency, asynchronous validation, fault isolation, and production observability. I also supported the modernization of legacy build workflows through centralized resolution, feature flags, staged migrations, and safe rollout mechanisms across hundreds of build configurations.
 
-#### 🔥 Deep Research Agent with Memory Constraints
+### Data Scientist | Tata Consultancy Services, Trafigura / Puma Energy
 
-Built an AI research agent capable of decomposing complex questions and operating under strict context/token constraints.
 
-* LangGraph-based orchestration
-* Retrieval-Augmented Generation
-* Vector retrieval
-* Summarization-based memory management
-* Multi-step reasoning and tool workflows
+At TCS, I worked with sales, order, logistics, and operational datasets across the energy domain. I used **Python, SQL, statistical analysis, feature engineering, forecasting, and predictive modeling** to study demand behavior, identify operational bottlenecks, detect anomalies, and support inventory and resource-planning decisions. I also worked on data-quality pipelines, near-real-time analytics, and Azure and Synapse based data workflows that helped move analytical outputs into scalable business and operational systems.
 
-#### 🏥 CLABSI Prediction – Texas Children’s Hospital
+### Associate Data Scientist | Tata Consultancy Services, Trafigura
 
-Led an academic machine-learning project focused on predicting high-risk clinical outcomes using structured healthcare data and supervised ML techniques.
+*Mumbai, India | Jun 2018 to Mar 2020*
 
-#### 📊 Customer Churn Prediction
-
-Developed a classification pipeline using customer engagement and behavioral features to identify customers at risk of churn.
+I started my career working with order, dispatch, terminal, sales, and aviation fueling data across **15 fuel terminals**. I analyzed more than **50,000 transaction records**, performed exploratory and statistical analysis, engineered features, and investigated demand patterns, anomalies, and operational constraints. This work helped translate real operational problems into data-driven decisions and contributed to improvements associated with a **17% increase in fuel and lubricant sales**.
 
 ---
 
-### Technical Skills
+## 🚀 Featured Projects
 
-**Languages**
-Python • SQL • R • C#
+### 👕 AI Wardrobe | Multimodal Outfit Recommendation System
 
-**GenAI & Agentic AI**
-LangGraph • LangChain • RAG • LLM Inference • OpenAI API • Hugging Face Transformers • VLM Integration
+An end-to-end AI system that transforms wardrobe images into structured garment intelligence and generates personalized outfit recommendations.
 
-**Machine Learning**
-PyTorch • TensorFlow • Keras • XGBoost • scikit-learn • Pandas • Feature Engineering • Model Evaluation
+**What I worked on:**
 
-**Retrieval & Multimodal AI**
-CLIP Embeddings • Vector Search • pgvector • Supabase • Embedding-Based Retrieval
+* Multimodal garment understanding using image segmentation and **CLIP embeddings**
+* Attribute extraction and structured garment metadata
+* Embedding-based retrieval using **pgvector and Supabase**
+* Personalized outfit ranking and recommendation logic
+* **RAG-based recommendation workflows**
+* Agentic orchestration using **LangGraph**
+* FastAPI services for garment ingestion, retrieval, ranking, and recommendation delivery
+* Feedback loops, fallback logic, duplicate detection, and recommendation evaluation
+* LLM evaluation for relevance, groundedness, consistency, and hallucination risk
 
-**ML Engineering**
-FastAPI • Docker • REST APIs • Real-Time Inference • Model Deployment • Observability
-
-**Cloud & Data**
-Microsoft Azure • Databricks • Synapse Analytics • Blob Storage • Logic Apps • PostgreSQL
-
-**Engineering**
-Git • API Integration • Distributed Systems • Production ML Infrastructure
+**Tech:** `Python` `FastAPI` `LangGraph` `RAG` `CLIP` `PostgreSQL` `Supabase` `pgvector`
 
 ---
 
-### What I'm Interested In
+### 🔥 Deep Research Agent with Memory Constraints
 
-I'm particularly interested in working on:
+Built an AI research agent capable of decomposing complex questions, retrieving relevant information, and generating responses while operating under strict context and token constraints.
 
-* **Generative AI & RAG systems**
-* **AI Agents and Agentic Workflows**
-* **Applied Machine Learning**
-* **Recommendation & Ranking Systems**
-* **LLM Evaluation and Reliability**
-* **ML Platforms & MLOps**
-* **Large-Scale Data & AI Infrastructure**
+The system combines **agentic orchestration, vector retrieval, RAG, and summarization-based memory management** to preserve useful context while keeping inference efficient.
+
+**Tech:** `Python` `LangGraph` `RAG` `Vector Search` `LLMs`
 
 ---
 
-### Connect With Me
+### 🎯 Contextual CTR Ranking System
+
+Built a machine learning ranking system to predict user engagement and rank candidate items using contextual and behavioral signals.
+
+The project covers the full ML lifecycle including feature engineering, model training, real-time inference, low-latency feature retrieval, event collection, retraining, and production-style serving.
+
+**Tech:** `Python` `LightGBM` `FastAPI` `Redis` `Kafka` `Airflow`
+
+---
+
+### 🏥 CLABSI Prediction | Texas Children's Hospital
+
+Led an academic machine learning project focused on predicting high-risk clinical outcomes from structured healthcare data.
+
+Evaluated multiple supervised learning approaches and improved key classification metrics including **precision, recall, and ROC-AUC by approximately 30%**.
+
+**Tech:** `Python` `Scikit-learn` `Pandas` `Machine Learning`
+
+---
+
+### 📊 Customer Churn Prediction
+
+Created a classification pipeline using customer engagement and behavioral features to identify customers at risk of churn, achieving approximately **92% classification accuracy**.
+
+**Tech:** `Python` `Scikit-learn` `Pandas`
+
+---
+
+## 🛠️ Technical Skills
+
+### Generative AI and Agentic Systems
+
+`LangGraph` `LangChain` `RAG` `LLM Inference` `OpenAI API` `Hugging Face Transformers` `VLM Integration`
+
+### Machine Learning
+
+`PyTorch` `TensorFlow` `Keras` `XGBoost` `LightGBM` `Scikit-learn` `Feature Engineering` `Model Evaluation`
+
+### Retrieval and Multimodal AI
+
+`CLIP Embeddings` `Vector Search` `pgvector` `Supabase` `Embedding-Based Retrieval`
+
+### ML Engineering
+
+`Python` `FastAPI` `Docker` `REST APIs` `Real-Time Inference` `Model Deployment` `Observability`
+
+### Data and Cloud
+
+`SQL` `PostgreSQL` `Azure` `Databricks` `Synapse Analytics` `Blob Storage` `Logic Apps`
+
+### Engineering
+
+`Git` `API Integration` `Distributed Systems` `Production ML Infrastructure` `Pandas`
+
+---
+
+## 🎓 Education
+
+### Master of Science in Business Analytics
+
+**University of Houston, C. T. Bauer College of Business**
+CGPA: **3.83 / 4.0**
+
+---
+
+## 📜 Certification
+
+**Google Cloud Professional Machine Learning Engineer**
+
+---
+
+## 🔍 What I'm Interested In
+
+I enjoy working on problems involving:
+
+* Generative AI and RAG
+* AI Agents and Agentic Workflows
+* Applied Machine Learning and Data Science
+* Recommendation and Ranking Systems
+* Embeddings and Retrieval
+* LLM Evaluation and Reliability
+* MLOps and ML Platforms
+* Large-Scale AI and Data Infrastructure
+
+---
+
+## 🤝 Connect With Me
 
 * **LinkedIn:** [linkedin.com/in/santhosh-botcha](https://www.linkedin.com/in/santhosh-botcha)
 * **Email:** [santhoshbotcha97@gmail.com](mailto:santhoshbotcha97@gmail.com)
-* **GitHub:** Explore my projects and implementations here
+* **GitHub:** Explore my repositories and projects here
+* **Phone:** (346) 438-0655
 
 ---
 
-*Interested in building AI systems that are not only intelligent, but reliable, scalable, and useful in production.*
+<div align="center">
+
+### Building AI systems that are useful, reliable, and scalable in production.
+
+</div>
