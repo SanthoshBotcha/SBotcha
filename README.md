@@ -11,7 +11,7 @@ I’m a **Machine Learning Engineer and Data Scientist** with experience across 
 
 I’ve worked on large-scale ML infrastructure handling **200M+ requests per day**, predictive analytics across operational and transactional datasets, and end-to-end AI applications using **RAG, LangGraph, embeddings, vector search, FastAPI, and multimodal models**.
 
-My interests are centered around **Generative AI, agentic workflows, retrieval systems, ML platform engineering, and productionizing AI systems** — especially solving the reliability, evaluation, scalability, and data challenges that arise when moving AI from experimentation into real applications.
+My interests are centered around **Generative AI, agentic workflows, retrieval systems, ML platform engineering, and productionizing AI systems** e,specially solving the reliability, evaluation, scalability, and data challenges that arise when moving AI from experimentation into real applications.
 
 ---
 
